@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/call.css">
+
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>ABAS</h3>
+            </div>
+    
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+            
+    
+    </div>
+    <br><br><br>
+    <h2 class="title"> Contact</h2>
+    <br>
+    <div class="container">
+        <!-- Image Path Link -->
+        
+        <div class="img">
+            <img src="./images/my pers/bus_card.png" alt="business card">
+            <br><br>
+            <img src="./images/my pers/anime version.jpeg" alt="anime" >
+        </div>
+        
+        <br>
+        <div class="box-form">        <!-- Form with Drop Shadow -->
+        <form action="mailto:abanubala77@gmail.com" method="post" enctype="text/plain" class="form-container">
+            Contact via
+            <input type="text" name="name" placeholder="Name">
+            <br>
+            <input type="email" name="email" placeholder="Email">
+            <br>
+            <textarea name="message" placeholder="Message"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+        
+    
+    <div class="social-icons">
+        <a href="abanubala77@gmail.com" target="_blank" rel="noopener"><img src="./images/icons/gm.png" alt="Gmail"></a>
+        <a href="https://www.facebook.com/profile.php?id=61552911458615" target="_blank" rel="noopener"><img src="./images/icons/facebook-original.svg" alt="FB"></a>
+        <a href="https://twitter.com/AbanuBala28652" target="_blank"rel="noopener"><img src="./images/icons/twitter.svg" alt="twitter"></a>
+        <a href="https://www.quora.com/profile/Anupriya-B-16" rel="noopener" target="_blank"><img src="./images/icons/quora.png" alt="Quora" class="rounded-image"></a>
+    </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    
+    <script>
+        $(document).ready(function(){
+            // Load sidebar content from sidebar.html
+            $("#sidebar").load("sidebar.html");
+        });
+    </script>
+    <br><br>
+    <footer class="foo">Copyrighted to ABAS @2024</footer>
+    <br><br>
+</body>
+</html>

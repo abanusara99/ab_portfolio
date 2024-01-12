@@ -1,0 +1,111 @@
+body {
+    background-color: #9eff8f8e; /* Set a light background color for the body */
+}
+
+.wrapper {
+    display: flex;
+}
+
+#sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #343a40; /* Set the background color for the sidebar */
+    padding-top: 20px;
+    padding-left: 10px;
+    overflow-x: hidden;
+    color: #fff;
+}
+
+#sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+}
+
+#sidebar a:hover {
+    color: #f1f1f1;
+}
+
+#content {
+    margin-left: 250px;
+    padding: 16px;
+}
+
+.sidebar-header {
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100vh;
+}
+.container4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.container5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100vh;
+}
+.card {
+    width: 200px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.foo {
+    background-color: #d2b48c; /* Light brown background color */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

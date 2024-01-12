@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/hoc.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+            <h3>ABAS</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+        <div class="container">
+            <div class="profile">
+                <h1>Hi, This is Anupriya Balasubramanian aka ABAnuSara</h1>
+                <img src="./images/my pers/meya.jpeg" alt="Profile Image" class="rounded-image">
+
+                <div class="social-icons">
+                    <a href="https://github.com/abanusara99" target="_blank" rel="noopener"><img src="./images/icons/github-original.svg" alt="Github"></a>
+                    <a href="https://www.linkedin.com/in/anupriya-balasubramanianas9/" target="_blank" rel="noopener"><img src="./images/icons/linkedin.svg" alt="Linkedin"></a>
+                    <a href="https://www.behance.net/abanusara99" target="_blank"rel="noopener"><img src="./images/icons/behance-original.svg" alt="Behance"></a>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                // Load sidebar content from sidebar.html
+                $("#sidebar").load("sidebar.html");
+            });
+        </script>
+<footer class="foo">Copyrighted to ABAS @2024</footer>
+</body>
+
+</html>

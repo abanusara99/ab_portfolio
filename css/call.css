@@ -1,0 +1,140 @@
+body {
+    background-color: #fff4a1; /* Set a light background color for the body */
+}
+
+.wrapper {
+    display: flex;
+}
+
+#sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #343a40; /* Set the background color for the sidebar */
+    padding-top: 20px;
+    padding-left: 10px;
+    overflow-x: hidden;
+    color: #fff;
+}
+
+#sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+}
+
+#sidebar a:hover {
+    color: #f1f1f1;
+}
+
+#content {
+    margin-left: 250px;
+    padding: 16px;
+}
+
+.sidebar-header {
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+
+.img img {
+    width: 600px; 
+    height: auto; 
+    display: block; /* Make sure the images are block elements */
+    margin: 0 auto; /* Center-align the images horizontally */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add a drop-down shadow */
+}
+
+.box-form {
+    max-width: 500px; /* Adjust the width as needed */
+    max-height: 500px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add a drop-down shadow */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+.form-container {
+    max-width: 300px; /* Adjust the width as needed */
+   
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+.form-container p {
+    text-align: center; /* Center-align the 'Contact via' text */
+}
+
+/* Style for input fields and textarea */
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* Style for submit button */
+.form-container input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+/* Adjust the width of the parent container if needed */
+.parent-container {
+    text-align: center;
+}
+
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Center-align the content horizontally */
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-left: 10px;
+   
+}
+
+.social-icons img {
+    width: 80px; /* Adjust the size of social icons as needed */
+    height: 80px;
+    border-radius: 90%;
+    margin-left: 20px; /* Add some left margin between icons */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a drop-down shadow */
+}
+
+@media screen and (max-width: 768px) {
+
+    .social-icons img {
+            width: 90px;
+            height: 90px;
+        }
+    }
+
+
+.form-container{
+    text-align: center;
+}
+
+
+.foo {
+    background-color: #d2b48c; /* Light brown background color */
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

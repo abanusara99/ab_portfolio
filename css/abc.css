@@ -1,0 +1,85 @@
+/* Add your custom styles here */
+
+body {
+    background-color: #db99ed89; /* Set a light background color for the body */
+}
+
+.wrapper {
+    display: flex;
+}
+
+#sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #343a40; /* Set the background color for the sidebar */
+    padding-top: 20px;
+    padding-left: 10px;
+    overflow-x: hidden;
+    color: #fff;
+}
+
+#sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+}
+
+#sidebar a:hover {
+    color: #f1f1f1;
+}
+
+#content {
+    margin-left: 250px;
+    padding: 16px;
+}
+
+.sidebar-header {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Add more styles as needed */
+
+.container {
+    margin-top: 20px;
+}
+
+.about {
+    text-align: center;
+}
+
+.rounded-image {
+    border-radius: 50%;
+    width: 190px; /* Set the width to 90 pixels */
+    height: 190px; /* Set the height to 90 pixels */
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add a drop-down shadow */
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+        transition: margin-left 0.3s;
+    }
+
+    #content {
+        margin-left: 0;
+    }
+}
+
+.foo {
+    background-color: #d2b48c; /* Light brown background color */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

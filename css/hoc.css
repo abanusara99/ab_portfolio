@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+    background-color: #9a80e781;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.profile img {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%; /* Create a circular image */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add a drop-down shadow */
+}
+
+h1 {
+    color: #333;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 80px; /* Adjust the size of social icons as needed */
+    height: 80px;
+    border-radius: 90%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a drop-down shadow */
+}
+
+@media screen and (max-width: 768px) {
+    .profile img {
+        width: 150px;
+        height: 150px;
+    }
+
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .social-icons img {
+            width: 90px;
+            height: 90px;
+        }
+    }
+
+    .foo {
+        background-color: #d2b48c; /* Light brown background color */
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
